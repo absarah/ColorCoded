@@ -22,10 +22,10 @@ class Controller_cc extends Controller_Template
 		$this->template->css= Asset::css("M1.css");
 	}
 
-	public function action_one(){
+	public function action_about(){
 		$data = array();
 		$this->template->title= "About Us Page";
-		$this->template->content= View::forge('m1/one.php', $data);
+		$this->template->content= View::forge('m1/about.php', $data);
 		$this->template->css= Asset::css("M1.css");
 	}
 
