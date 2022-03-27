@@ -26,9 +26,15 @@
 		                for ($i = 0; $i < $_GET['colors']; $i++) {
 			                $crtable .= '<tr>';
 			                for ($j = 0; $j < 2; $j++) {
-				                $crtable .= '<td width="50">&nbsp;</td>';
+				                if($i == 0){
+                                    $crtable .= '<td>'.$alphabet[$j].'</td>';
+                                }
+                                else{
+                                    $crtable .= '<td width="50">&nbsp;</td>';
+                                }
 			                }
 			                $crtable .= '</tr>';
+
 		                }
 		                $crtable .= '</table>';
 	                }
