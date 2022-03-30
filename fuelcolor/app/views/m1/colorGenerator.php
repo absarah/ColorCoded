@@ -3,7 +3,7 @@
     <head>
     </head>
 
-    <body>
+    <body style="margin-bottom: 60px;">
         <main class="main">
             <div class="contents">
                 <form action="colorGenerator" target="" method="GET">
